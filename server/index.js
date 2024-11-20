@@ -1,6 +1,6 @@
 import express from 'express'
 import cors from 'cors'
-import authRouter from '/routes/auth.js'
+import authRouter from './routes/auth.js'
 import connectToDatabase from './database/db.js'
 
 connectToDatabase()
